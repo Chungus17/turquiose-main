@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turquoise</title>
+
+    <!--PRIMARY META TAGS-->
+    <meta name="tite" content="Turquoise" />
+    <meta name="description" content="Experience the wonder" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/images/turquoise-logo.svg" type="image/svg+xml" />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d45530dbee.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--ANIMATE-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--FLAG ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+    />
+
+    <!--Preload Images-->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+  </head>
+  <body>
+    <!----------------HEADER---------------->
+    <header class="header" data-header>
+      <div id="navbar-placeholder"></div>
+    </header>
+
+    <main>
+      <article>
+
+        <!----------HERO SECTION---------->
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.svg')"
+        >
+          <div class="container">
+            <div class="hero-content animate__animated animate__slideInLeft">
+              <h1 class="h1 hero-title">
+                Experience the Wonder with
+                <span class="turquiose-text">Turquoise</span> Company.
+              </h1>
+              <p class="hero-text">
+                We deliver industry-leading engineering, logistics, and HR
+                solutions tailored to meet your needs.
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="#contact-us" class="btn btn-outline">Get in touch</a>
+              </div>
+            </div>
+
+            <div class="hero-slider animate__animated animate__slideInRight" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/Engineering-hero-1.jpg"
+                        alt="hero banner"
+                        width="575"
+                        height="550"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/engineering-hero-2.jpg"
+                        alt="hero banner"
+                        width="575"
+                        height="550"
+                        class="img-cover"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </li>
+
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/engineering-hero-3.jpg"
+                        alt="hero banner"
+                        width="575"
+                        height="550"
+                        class="img-cover"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
+
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!--WHO ARE WE SECTION-->
+        <section class="section feature hidden" aria-labelledby="feature label" id="whoAreWe">
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/who-are-we.svg"
+                alt="feature banner"
+                class="w-100"
+                width="800"
+                height="531"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="feature-content">
+              <p class="section-subtitle" id="feature-label">Who Are We</p>
+
+              <h2 class="h2 section-title">
+                At <span class="turquiose-text-white">Turquoise</span>, we are committed to delivering top-tier
+                engineering, logistics, and HR solutions
+              </h2>
+
+              <p class="section-text">
+                Established in 2017 in the State of Kuwait, <span class="turquiose-text-white">TURQUOISE</span> has
+                emerged over the years to become a recognized provider of a
+                wide range of support services for its diverse clientele in
+                Qatar, Kuwait, Turkiye, Pakistan and other GCC countries.
+              </p>
+
+              <p class="section-text">
+                The company's reputation is centered on its capability to
+                provide high quality and professional HR solutions, most
+                notably in the fields of local and overseas manpower,
+                Contracting and engineering services, Import & Export,
+                Trading Services and Construction Materials supply. 
+              </p>
+
+              <p class="section-text">
+                Our mission is to establish ourselves as the leading provider of Facilities
+                Services, Electrical & Mechanical Engineering Constructions, Heavy
+                Equipment Rental &Leasing, Maintenance, Import & Export, Trading
+                Services, turn key HR solutions for Governmental Contracts, Commercial
+                sectors, Oil & Gas, Refineries, Municipalities & International organizations.
+              </p>
+
+            </div>
+          </div>
+        </section>
+
+        <!--WHO ARE WE SECTION-->
+        <section class="section feature" aria-labelledby="feature label" >
+          <div class="container ceo">
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/values.svg"
+                alt="feature banner"
+                class="w-100"
+                width="800"
+                height="531"
+                loading="lazy"
+              />
+            </figure>
+            <div class="feature-content">
+              <p class="section-subtitle" id="feature-label">CEO'S MESSAGE</p>
+
+              <p class="section-text">
+                Driven by a vision to make a positive impact, I embarked on an entrepreneurial journey in 2010. This journey led to the creation of TURQUOISE, a company dedicated to delivering exceptional value and exceeding client expectations in the State of Kuwait and the Middle East. When I launched TURQUOISE, my vision was clear: to create a platform that not only meets the needs for our clients but also inspires and engages our community.
+              </p>
+
+              <p class="section-text">
+                As Founder & CEO of TURQUOISE, I have seen the company evolve from a one-man startup to an established name within the region. Over the years, we have achieved many milestones, which have shaped us into the company we are today. While we have grown, and continue to expand, our corporate culture is still focused on the values that made us into who we are. I am committed to fostering a team that is strategically led and focused on achieving our goals. 
+              </p>
+
+              <p class="section-text">
+                I am immensely proud of our dedicated team, whose hard work and passion drive our success. Together, we have created a culture of innovation and collaboration, where ideas flourish and challenges are met with enthusiasm.
+              </p>
+
+              <p class="section-text">
+                Thank you for being part of our story. Together, we can achieve great things!
+              </p>
+
+              <h3 class="h2 section-title">
+                ADNAN AFRIDI
+              </h3>
+
+              <h4>
+                Founder & CEO
+              </h4>
+
+            </div>
+          </div>
+        </section>
+
+        <!-------------VALUES SECTION---------------->
+        <!-- <section class="values" aria-label="our values">
+          <div class="container">
+            <p class="section-subtitle" id="values-label">Our values</p>
+            <ul class="values-card">
+              <li class="value">
+                <span class="value-icon"
+                  ><i class="fa-regular fa-handshake"></i><span class="value-card-heading">COMMITMENT</span>
+                </span>
+              </li>
+              <li class="value">
+                <span class="value-icon"
+                  ><i class="fa-regular fa-lightbulb"></i
+                ></span>
+                <span class="value-card-heading">INNOVATION</span>
+              </li>
+              <li class="value">
+                <span class="value-icon"
+                  ><i class="fa-solid fa-scale-balanced"></i
+                ></span>
+                <span class="value-card-heading">INTEGRITY</span>
+              </li>
+              <li class="value">
+                <span class="value-icon"
+                  ><i class="fa-solid fa-users-viewfinder"></i
+                ></span>
+                <span class="value-card-heading">PEOPLE FOCUS</span>
+              </li>
+              <li class="value">
+                <span class="value-icon"
+                  ><i class="fa-solid fa-people-group"></i
+                ></span>
+                <span class="value-card-heading">TEAM SPIRIT</span>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+
+        <!----------SERVICE SECTION------------->
+        <section class="section service" aria-labelledby="service-label" id="services">
+          <div class="container">
+            <p class="section-subtitle" id="service-label">Our Services</p>
+
+            <h2 class="h2 section-title">
+              We deliver tailored services to meet your business needs.
+            </h2>
+
+            <ul class="grid-list">
+              <!-- Engineering and Contracting -->
+              <li>
+                <a href="service-details.html?service=engineering">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="hammer-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Engineering and Construction</h3>
+
+                    <p class="card-text">
+                      Expertise in engineering and contracting services designed
+                      to support projects across various industries with
+                      precision and reliability.
+                    </p>
+
+                    <a
+                      href="service-details.html?service=engineering"
+                      class="btn-text"
+                    >
+                      <span class="span">Learn More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Equipment Lease -->
+              <li>
+                <a href="service-details.html?service=equipment">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="cube-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Equipment Lease</h3>
+
+                    <p class="card-text">
+                      Reliable equipment leasing services, offering modern
+                      machinery to meet the needs of any project or industry.
+                    </p>
+
+                    <a
+                      href="service-details.html?service=equipment"
+                      class="btn-text"
+                    >
+                      <span class="span">Learn More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Logistics -->
+              <li>
+                <a href="service-details.html?service=logistics">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="car-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Logistics</h3>
+
+                    <p class="card-text">
+                      Streamlined logistics solutions for seamless
+                      transportation, workforce mobility, and supply chain
+                      efficiency.
+                    </p>
+
+                    <a
+                      href="service-details.html?service=logistics"
+                      class="btn-text"
+                    >
+                      <span class="span">Learn More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Sponsorship -->
+              <li>
+                <a href="service-details.html?service=sponsorship">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="business-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Sponsorship</h3>
+
+                    <p class="card-text">
+                      Trusted sponsorship services for non-Kuwaiti companies,
+                      enabling seamless operations in Kuwait.
+                    </p>
+
+                    <a
+                      href="service-details.html?service=sponsorship"
+                      class="btn-text"
+                    >
+                      <span class="span">Learn More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Human Resources -->
+              <li>
+                <a href="service-details.html?service=hr">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="people-circle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Human Resources & Recruitment</h3>
+
+                    <p class="card-text">
+                      Comprehensive HR solutions, including recruitment,
+                      workforce management, and skill-building programs.
+                    </p>
+
+                    <a href="service-details.html?service=hr" class="btn-text">
+                      <span class="span">Learn More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Import & Export Services -->
+              <li>
+                <a href="service-details.html?service=import_export">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <h3 class="h4 card-title">Trading Services</h3>
+
+                    <p class="card-text">
+                      Providing high-quality materials and seamless global trade solutions to support various industries with efficiency and reliability.
+                    </p>
+
+                    <a href="service-details.html?service=import_export" class="btn-text">
+                      <span class="span">Learn More</span>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+
+        <!-------------ABOUT SECTION-------------->
+        <section class="section about" aria-labelledby="about-label" id="whyUs">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                alt="about banner"
+                class="w-100"
+                loading="lazy"
+                width="800"
+                height="580"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+              <h2 class="h2 section-title">
+                We bring solutions to make life easier for our clients.
+              </h2>
+
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+                        <span class="span h5" data-accordion-btn
+                          >Proven Expertise</span
+                        >
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      With over 7 years of experience, we deliver reliable and
+                      innovative solutions across engineering, logistics, and HR
+                      services in Kuwait and the GCC region.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+                        <span class="span h5" data-accordion-btn
+                          >Comprehensive Services</span
+                        >
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      From contracting and construction works to manpower
+                      solutions and equipment leasing, we provide an all-in-one
+                      service tailored to meet your needs.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+                        <span class="span h5" data-accordion-btn
+                          >Strong Regional Presence</span
+                        >
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      Serving clients across Kuwait and the GCC, we bring
+                      regional expertise and a deep understanding of the local
+                      market.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+                        <span class="span h5" data-accordion-btn
+                          >Client-Centric Approach</span
+                        >
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      We prioritize our clients’ goals, ensuring timely
+                      delivery, top-quality services, and customized solutions
+                      to drive your success.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-------------OUR REGIONAL PRESENCE SECTION-------------->
+        <section class="section project" aria-labelledby="project-label">
+          <div class="container">
+            <p class="section-subtitle" id="project-label">
+              Our Regional Presence
+            </p>
+
+            <h2 class="h2 section-title">
+              Strategically Positioned Across Key Regions
+            </h2>
+
+            <ul class="grid-list">
+              <!-- Kuwait -->
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/kuwait-city.jpg"
+                      alt="Kuwait"
+                      class="img-cover"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        ><span class="flag-icon flag-icon-kw"></span> Kuwait</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Our headquarters and main operations hub, driving growth
+                      and excellence across the GCC region.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Qatar -->
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/qatar-city.jpg"
+                      alt="Qatar"
+                      class="img-cover"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        ><span class="flag-icon flag-icon-qa"></span> Qatar</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Delivering innovative solutions tailored to the needs of
+                      our clients in Qatar's thriving market.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Turkey -->
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/istanbul-city.jpg"
+                      alt="Turkey"
+                      class="img-cover"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        ><span class="flag-icon flag-icon-tr"></span> Turkey</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Expanding into Europe with cutting-edge services and
+                      expertise to support international projects.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Pakistan -->
+              <li>
+                <div class="project-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 560; --height: 350"
+                  >
+                    <img
+                      src="./assets/images/Islamabad-city.jpg"
+                      alt="Pakistan"
+                      class="img-cover"
+                      width="560"
+                      height="350"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        ><span class="flag-icon flag-icon-pk"></span> Pakistan</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Expanding into Pakistan with innovative services and expertise to support dynamic international projects.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-------------OUR CLIENTS SECTION-------------->
+        <section class="section project" aria-labelledby="project-label" id="clients">
+          <div class="container">
+            <p class="section-subtitle" id="project-label">Our Clients</p>
+
+            <h2 class="h2 section-title">
+              Trusted by Leading Companies Worldwide
+            </h2>
+
+            <!-- Sliding Carousel -->
+            <div class="wrapper">
+              <div class="slider">
+                <div class="slide-track">
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/cengizInsaat-logo.svg"
+                      height="100"
+                      width="250"
+                      alt="Cengiz Insaat"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/cggc-logo.png"
+                      height="100"
+                      width="250"
+                      alt="CGGC"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/kskGrup-logo.jpg"
+                      height="100"
+                      width="250"
+                      alt="KSK Grup"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/gulftect.svg"
+                      height="100"
+                      width="250"
+                      alt="gulftech"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/limak-logo.svg"
+                      height="100"
+                      width="250"
+                      alt="Limak"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/sevincler-logo.jpg"
+                      height="100"
+                      width="250"
+                      alt="Sevincler Insaat"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/genesis.svg"
+                      height="100"
+                      width="250"
+                      alt="genesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/polatyol-logo.webp"
+                      height="100"
+                      width="250"
+                      alt="Polatyol"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- --------------CTA SECTION-------------- -->
+        <section class="section project" aria-labelledby="project-label" id="contact-us" style="background-color: #3ee0d0;">
+          <div class="container">
+            <p class="section-subtitle" id="project-label">CONTACT US</p>
+
+            <h2 class="h2 section-title">
+              Get in touch with us and we will contact you back very soon!
+            </h2>
+
+            <div class="get-in-touch">
+              <form action="https://api.web3forms.com/submit" method="POST" id="myForm">
+                <input type="hidden" name="access_key" value="120862db-85b3-4863-9c31-286ea59ceabc">  
+                <input type="hidden" name="subject" value="You have received a new message!">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+                <p type="Name:" class="contact-form-label"><input placeholder="Write your name here.." class="contact-form-input" name="name" required></input></p>
+                <p type="Email:" class="contact-form-label"><input placeholder="Let us know your email" class="contact-form-input" name="email" required></input></p>
+                <p type="Phone:" class="contact-form-label"><input placeholder="Let us know how to contact you back.." class="contact-form-input" name="Phone" required></input></p>
+                <p type="Message:" class="contact-form-label"><textarea placeholder="What would you like to tell us.." class="contact-form-input" name="message" required></textarea></p>
+                <button class="contact-form-button" type="submit">Send Message</button>
+                <div id="result"></div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!------------------FOOTER-------------------->
+        <div id="footer-placeholder"></div>
+      </article>
+
+      <div class="loading-page">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="900"
+          height="125"
+          viewBox="0 0 900 125"
+          fill="none"
+          id="svg"
+        >
+          <path
+            d="M73.8824 0L0 125H14.582L78.257 12.207H131.724L113.74 43.457L121.031 55.1758L153.598 0H73.8824Z"
+            fill="#3EE0CF"
+          />
+          <path
+            d="M95.2693 21.4844L36.4551 125H51.0372L95.2693 49.3164L131.724 112.305H88.4644L107.907 79.1016L100.616 67.8711L67.0774 125H157L95.2693 21.4844Z"
+            fill="#3EE0CF"
+          />
+          <rect
+            x="193"
+            y="6"
+            width="703"
+            height="113"
+            stroke="#4E293B"
+            stroke-width="8"
+          />
+          <path
+            d="M214.551 42.9503V30.2727H274.281V42.9503H252.016V103H236.817V42.9503H214.551ZM339.04 30.2727H354.416V77.5028C354.416 82.8059 353.15 87.446 350.616 91.4233C348.107 95.4006 344.591 98.5019 340.07 100.727C335.548 102.929 330.28 104.03 324.267 104.03C318.23 104.03 312.951 102.929 308.429 100.727C303.907 98.5019 300.392 95.4006 297.882 91.4233C295.373 87.446 294.118 82.8059 294.118 77.5028V30.2727H309.494V76.1889C309.494 78.9588 310.098 81.4209 311.305 83.5753C312.536 85.7296 314.265 87.4223 316.49 88.6534C318.715 89.8845 321.308 90.5 324.267 90.5C327.25 90.5 329.842 89.8845 332.044 88.6534C334.269 87.4223 335.986 85.7296 337.193 83.5753C338.424 81.4209 339.04 78.9588 339.04 76.1889V30.2727ZM377.067 103V30.2727H405.76C411.253 30.2727 415.94 31.2552 419.823 33.2202C423.729 35.1615 426.7 37.9195 428.736 41.4943C430.796 45.0455 431.826 49.224 431.826 54.0298C431.826 58.8594 430.784 63.0142 428.701 66.4943C426.617 69.9508 423.599 72.6023 419.645 74.4489C415.715 76.2955 410.957 77.2188 405.37 77.2188H386.158V64.8608H402.884C405.819 64.8608 408.258 64.4583 410.199 63.6534C412.141 62.8485 413.585 61.6411 414.532 60.0312C415.502 58.4214 415.988 56.4209 415.988 54.0298C415.988 51.6151 415.502 49.5791 414.532 47.9219C413.585 46.2647 412.129 45.0099 410.164 44.1577C408.222 43.2817 405.772 42.8438 402.813 42.8438H392.444V103H377.067ZM416.343 69.9034L434.418 103H417.444L399.759 69.9034H416.343ZM480.142 77.7159H493.211L499.78 86.1676L506.243 93.696L518.424 108.966H504.077L495.696 98.6676L491.4 92.5597L480.142 77.7159ZM519.525 66.6364C519.525 74.5672 518.021 81.3144 515.015 86.8778C512.032 92.4413 507.96 96.6908 502.799 99.6264C497.661 102.538 491.885 103.994 485.469 103.994C479.006 103.994 473.206 102.527 468.069 99.5909C462.931 96.6553 458.871 92.4058 455.888 86.8423C452.905 81.2789 451.414 74.5436 451.414 66.6364C451.414 58.7055 452.905 51.9583 455.888 46.3949C458.871 40.8314 462.931 36.5937 468.069 33.6818C473.206 30.7462 479.006 29.2784 485.469 29.2784C491.885 29.2784 497.661 30.7462 502.799 33.6818C507.96 36.5937 512.032 40.8314 515.015 46.3949C518.021 51.9583 519.525 58.7055 519.525 66.6364ZM503.935 66.6364C503.935 61.4991 503.166 57.1667 501.627 53.6392C500.112 50.1117 497.969 47.4366 495.199 45.6136C492.429 43.7907 489.186 42.8793 485.469 42.8793C481.752 42.8793 478.509 43.7907 475.739 45.6136C472.969 47.4366 470.815 50.1117 469.276 53.6392C467.761 57.1667 467.003 61.4991 467.003 66.6364C467.003 71.7737 467.761 76.1061 469.276 79.6335C470.815 83.161 472.969 85.8362 475.739 87.6591C478.509 89.482 481.752 90.3935 485.469 90.3935C489.186 90.3935 492.429 89.482 495.199 87.6591C497.969 85.8362 500.112 83.161 501.627 79.6335C503.166 76.1061 503.935 71.7737 503.935 66.6364ZM585.837 30.2727H601.213V77.5028C601.213 82.8059 599.946 87.446 597.413 91.4233C594.904 95.4006 591.388 98.5019 586.866 100.727C582.345 102.929 577.077 104.03 571.064 104.03C565.027 104.03 559.748 102.929 555.226 100.727C550.704 98.5019 547.188 95.4006 544.679 91.4233C542.17 87.446 540.915 82.8059 540.915 77.5028V30.2727H556.291V76.1889C556.291 78.9588 556.895 81.4209 558.102 83.5753C559.333 85.7296 561.062 87.4223 563.287 88.6534C565.512 89.8845 568.105 90.5 571.064 90.5C574.047 90.5 576.639 89.8845 578.841 88.6534C581.066 87.4223 582.783 85.7296 583.99 83.5753C585.221 81.4209 585.837 78.9588 585.837 76.1889V30.2727Z"
+            fill="#3EE0CF"
+          />
+          <ellipse cx="669" cy="65" rx="47" ry="41" fill="#4E293B" />
+          <path
+            d="M662 81.0491L679.5 87.5491V77.0491L662 81.0491Z"
+            fill="#4E293B"
+          />
+          <path
+            d="M662 71.5491L679.5 77.0491V68.5491L662 71.5491Z"
+            fill="#4E293B"
+          />
+          <path
+            d="M662 66.0491L679.5 68.5491V61.5491L662 66.0491Z"
+            fill="#4E293B"
+          />
+          <path
+            d="M662 57.5491L679.5 61.5491V53.5491L662 57.5491Z"
+            fill="#4E293B"
+          />
+          <path
+            d="M679.5 53.5491V43.0491L662 48.5491L679.5 53.5491Z"
+            fill="#4E293B"
+          />
+          <path
+            d="M679.5 43.0491C657.425 42.4287 644 47.5491 644 66.0491C644 84.5491 657.533 89.1536 679.5 87.5491L662 81.0491L679.5 77.0491L662 71.5491L679.5 68.5491L662 66.0491L679.5 61.5491L662 57.5491L679.5 53.5491L662 48.5491L679.5 43.0491Z"
+            fill="white"
+          />
+          <path
+            d="M679.5 87.5491C657.533 89.1536 644 84.5491 644 66.0491C644 47.5491 657.425 42.4287 679.5 43.0491M679.5 87.5491L662 81.0491L679.5 77.0491M679.5 87.5491V77.0491M679.5 43.0491V53.5491M679.5 43.0491L662 48.5491L679.5 53.5491M679.5 77.0491L662 71.5491L679.5 68.5491M679.5 77.0491V68.5491M679.5 68.5491L662 66.0491L679.5 61.5491M679.5 68.5491V61.5491M679.5 61.5491L662 57.5491L679.5 53.5491M679.5 61.5491V53.5491"
+            stroke="#4E293B"
+          />
+          <path
+            d="M742.697 29.2727V102H727.321V29.2727H742.697ZM799.801 50.1889C799.517 47.3243 798.298 45.099 796.144 43.5128C793.989 41.9266 791.066 41.1335 787.373 41.1335C784.863 41.1335 782.744 41.4886 781.016 42.1989C779.288 42.8854 777.962 43.8442 777.039 45.0753C776.139 46.3063 775.689 47.7031 775.689 49.2656C775.642 50.5677 775.914 51.7041 776.506 52.6747C777.122 53.6454 777.962 54.4858 779.027 55.196C780.093 55.8826 781.324 56.4863 782.721 57.0071C784.117 57.5043 785.609 57.9304 787.195 58.2855L793.729 59.848C796.901 60.5582 799.813 61.5052 802.465 62.6889C805.116 63.8726 807.413 65.3286 809.354 67.0568C811.295 68.785 812.799 70.821 813.864 73.1648C814.953 75.5085 815.509 78.1955 815.533 81.2259C815.509 85.6766 814.373 89.5355 812.124 92.8026C809.899 96.0459 806.679 98.5672 802.465 100.366C798.275 102.142 793.22 103.03 787.301 103.03C781.43 103.03 776.317 102.13 771.961 100.331C767.628 98.5317 764.243 95.8684 761.804 92.3409C759.39 88.7898 758.123 84.3982 758.005 79.1662H772.884C773.05 81.6046 773.748 83.6406 774.979 85.2741C776.234 86.884 777.903 88.1032 779.986 88.9318C782.093 89.7367 784.472 90.1392 787.124 90.1392C789.728 90.1392 791.989 89.7604 793.907 89.0028C795.848 88.2453 797.351 87.1918 798.417 85.8423C799.482 84.4929 800.015 82.9422 800.015 81.1903C800.015 79.5568 799.529 78.1837 798.559 77.071C797.612 75.9583 796.215 75.0114 794.368 74.2301C792.545 73.4489 790.308 72.7386 787.657 72.0994L779.738 70.1108C773.606 68.6193 768.765 66.2874 765.213 63.1151C761.662 59.9427 759.899 55.6695 759.922 50.2955C759.899 45.892 761.07 42.045 763.438 38.7543C765.829 35.4635 769.108 32.8949 773.275 31.0483C777.441 29.2017 782.176 28.2784 787.479 28.2784C792.877 28.2784 797.588 29.2017 801.613 31.0483C805.661 32.8949 808.81 35.4635 811.059 38.7543C813.308 42.045 814.468 45.8565 814.539 50.1889H799.801ZM830.876 102V29.2727H879.881V41.9503H846.252V59.2798H877.36V71.9574H846.252V89.3224H880.023V102H830.876Z"
+            fill="#4E293B"
+          />
+        </svg>
+  
+        <div class="name-container">
+          <div class="logo-name">EXPERIENCE THE WONDER</div>
+        </div>
+      </div>
+    </main>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+
+
+    <script src="./assets/js/IntroAnimation.js"></script>
+
+    <!--Custom JAVASCRIPT Link-->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!--IONICON-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
