@@ -42,10 +42,9 @@
     />
 
     <!--Preload Images-->
-    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Engineering-hero-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/engineering-hero-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/engineering-hero-3.jpg" />
   </head>
   <body>
     <!----------------HEADER---------------->
@@ -61,6 +60,7 @@
           class="section hero has-bg-image"
           aria-label="home"
           style="background-image: url('./assets/images/hero-bg.svg')"
+          id="hero-section"
         >
           <div class="container">
             <div class="hero-content animate__animated animate__slideInLeft">
@@ -795,6 +795,33 @@
                   </div>
                   <div class="slide">
                     <img
+                      src="./assets/images/Clients/sinohydro.svg"
+                      height="100"
+                      width="250"
+                      alt="Polatyol"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/mvg_insaat.svg"
+                      height="100"
+                      width="250"
+                      alt="Polatyol"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/power-china.png"
+                      height="100"
+                      width="250"
+                      alt="Polatyol"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
                       src="./assets/images/Clients/sevincler-logo.jpg"
                       height="100"
                       width="250"
@@ -814,6 +841,15 @@
                   <div class="slide">
                     <img
                       src="./assets/images/Clients/polatyol-logo.webp"
+                      height="100"
+                      width="250"
+                      alt="Polatyol"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="slide">
+                    <img
+                      src="./assets/images/Clients/firt-group.svg"
                       height="100"
                       width="250"
                       alt="Polatyol"
@@ -841,10 +877,18 @@
                 <input type="hidden" name="subject" value="You have received a new message!">
                 <input type="checkbox" name="botcheck" id="" style="display: none;">
 
-                <p type="Name:" class="contact-form-label"><input placeholder="Write your name here.." class="contact-form-input" name="name" required></input></p>
-                <p type="Email:" class="contact-form-label"><input placeholder="Let us know your email" class="contact-form-input" name="email" required></input></p>
-                <p type="Phone:" class="contact-form-label"><input placeholder="Let us know how to contact you back.." class="contact-form-input" name="Phone" required></input></p>
-                <p type="Message:" class="contact-form-label"><textarea placeholder="What would you like to tell us.." class="contact-form-input" name="message" required></textarea></p>
+                <p type="Name:" class="contact-form-label">
+                  <input placeholder="Write your name here.." class="contact-form-input" name="name" required></input>
+                </p>
+                <p type="Email:" class="contact-form-label">
+                  <input placeholder="Let us know your email" class="contact-form-input" name="email" required></input>
+                </p>
+                <p type="Phone:" class="contact-form-label">
+                  <input placeholder="Let us know how to contact you back.." class="contact-form-input" name="Phone" required></input>
+                </p>
+                <p type="Message:" class="contact-form-label">
+                  <textarea placeholder="What would you like to tell us.." class="contact-form-input" name="message" required></textarea>
+                </p>
                 <button class="contact-form-button" type="submit">Send Message</button>
                 <div id="result"></div>
               </form>

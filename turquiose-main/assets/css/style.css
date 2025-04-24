@@ -2,10 +2,6 @@
   #main.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -264,7 +260,7 @@ body.nav-active {
 .section-subtitle {
   font-size: var(--fs-7);
   text-transform: uppercase;
-  color: var(--violet-blue-crayola);
+  color: var(--secondary-color);
   font-weight: var(--fw-700);
   margin-block-end: 16px;
 }
@@ -1121,22 +1117,6 @@ Resonsive for larger than 768 px screen
     margin-inline: auto;
   }
 
-  /*
-  ABOUT
-  */
-  .about .container {
-    grid-template-columns: 1fr 0.7fr;
-    align-items: center;
-  }
-
-  /*
-  FEATURES
-  */
-  .feature .container {
-    grid-template-columns: 0.7fr 1fr;
-    align-items: center;
-  }
-
   .feature-banner {
     order: 1;
   }
@@ -1217,6 +1197,22 @@ Resonsive for larger than 992 px screen
   .hero-content {
     max-width: unset;
     margin-inline: 0;
+  }
+
+  /*
+  ABOUT
+  */
+  .about .container {
+    grid-template-columns: 1fr 0.7fr;
+    align-items: center;
+  }
+
+  /*
+  FEATURES
+  */
+  .feature .container {
+    grid-template-columns: 0.7fr 1fr;
+    align-items: center;
   }
 
   .btn-wrapper {
@@ -1424,7 +1420,12 @@ Resonsive for larger than 1400 px screen
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, var(--secondary-color), #2e7871, #2e7871);
+  background: linear-gradient(
+    to right,
+    var(--secondary-color),
+    #2e7871,
+    #2e7871
+  );
 
   height: 100%;
   width: 100%;
